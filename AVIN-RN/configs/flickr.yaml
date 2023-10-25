@@ -1,0 +1,14 @@
+audio_root_train: "SoundNet-Flickr/train/wavs"
+vision_root_train: "SoundNet-Flickr/train/images"
+train_index: "flickr_10k.json"
+audio_root_val: "SoundNet-Flickr/test/wavs"
+vision_root_val: "SoundNet-Flickr/test/images"
+box_json: "flickr_test.json"
+
+ckpt: "."
+work_dir: "temp"
+num_epochs: 100
+seed: 1234
+logging_iters: 100
+batch_size: 128
+workers: 8
